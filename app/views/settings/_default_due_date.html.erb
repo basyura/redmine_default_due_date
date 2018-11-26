@@ -1,0 +1,5 @@
+<p>
+  <%= label('settings[default_due_date]', l(:default_due_date, scope: :default_due_date)) %>
+  <%= text_field_tag('settings[default_due_date]', @settings['default_due_date']) %>
+  <%= content_tag(:em, l(:default_due_date_info, scope: :default_due_date), class: 'info') %>
+</p>
