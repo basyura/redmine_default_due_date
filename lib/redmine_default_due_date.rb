@@ -6,7 +6,7 @@ module Redmine
       DEFAULT_DUE_DATE = 7
 
       def view_issues_new_top(context)
-        context[:issue].due_date ||= default_due_date
+        context[:issue].due_date ||= self.class.default_due_date
       end
 
       def self.default_due_date
