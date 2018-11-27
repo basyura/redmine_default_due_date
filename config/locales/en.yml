@@ -1,0 +1,5 @@
+# English strings go here for Rails i18n
+en:
+  default_due_date:
+    default_due_date: 'number of days'
+    default_due_date_info: "if it's left blank set the due date to such number of days after today"
